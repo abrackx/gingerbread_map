@@ -53,4 +53,13 @@ def gingerbread_plot(points, num_iter):
     plt.show()
 
 
-gingerbread_plot(1500, 100)
+running = True
+while running:
+    p = input('Enter the number of points: ')
+    n = input('Enter the number of iterations: ')
+    gingerbread_plot(int(p), int(n))
+
+    v = input('Press enter to start again. Press x to exit. ')
+
+    if v == 'x':
+        running = False
