@@ -20,7 +20,6 @@ def gingerbread_map(x, y):
 
 def gingerbread_plot(points, num_iter):
     #generate p amount of points [x,y], apply the function for n iterations
-    #with u as the parameter value for the gingerbreadman map
     x = []
     y = []
     xinit = []
